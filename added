@@ -1,0 +1,352 @@
+body {
+  background-image: linear-gradient(to bottom, #201c4c, #1e2d7e);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img.logo {
+  padding: 0px 70px 0px 0px;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  width: 0px;
+  height: 0px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Pastel_Neurodiversity_Symbol.png);
+  background-position: center center;
+}
+
+p {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12;
+}
+
+.notice {
+  background-image: linear-gradient(to right, #cee5ff, #f2a2cc) !important;
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: #78abfc;
+  box-shadow: none;
+}
+
+#workskin {
+  background-repeat: repeat-x;
+  background-image: url(https://64.media.tumblr.com/tumblr_maoblrLFhi1rzy67oo1_1280.gif);
+  background-size: 200px 40px;
+  background-position: center top;
+  padding: 0px 0px 0px 0px;
+}
+
+.error {
+  background-color: #fae2ea;
+  border-style: dashed;
+  border-color: #d15ea6;
+  box-shadow: none;
+}
+
+li.warnings a.tag,
+li.characters a.tag,
+dd.warning.tags li a.tag,
+dd.rating.tags li a.tag,
+dd.category.tags li a.tag,
+dd.fandom.tags li a.tag,
+dd.relationship.tags li a.tag,
+dd.character.tags li a.tag,
+.relationships a,
+.relationships .tags a {
+  background-image: linear-gradient(to right, #78abfc, #9a8de3, #d15da6) !important;
+  border-radius: 3px;
+}
+
+a.tag::before {
+  content: "\2726\0020" !important;
+}
+
+p.muted.notice {
+  display: none;
+}
+
+dl.work.meta.group {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 3px;
+  background-color: #1f2d7f;
+}
+
+fieldset {
+  background-color: #1e2c7f;
+  background-size: cover;
+  background-position: right right;
+  background-repeat: none;
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 3px;
+}
+
+ol.work.index.group li {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 3px;
+}
+
+ul.tags.commas li {
+  border: none !important;
+}
+
+ul.actions li {
+  border: none !important;
+}
+
+fieldset dl {
+  background-image: linear-gradient(to bottom, #1e2c7e, #78abfc);
+}
+
+ul.required-tags li {
+  border: none !important;
+}
+
+#header ul.primary {
+  box-shadow: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #e49494 url(https://admin.esports.gg/wp-content/uploads/2025/09/Honkai-Star-Rail-drops-Cyrene-reveal-as-a-playable-character-1-1568x882.jpg);
+  background-attachment: fixed;
+  width: 95%;
+  margin: 0px auto;
+  float: none;
+  display: table;
+  border-radius: 15px;
+  background-repeat: none;
+  background-position: center center;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading a::before {
+  content: "Hello, world!\0020\266A";
+  font-style: normal;
+  font-family: "Georgia", serif;
+  font-size: 36 !important;
+  margin-left: 0px;
+}
+
+#header .heading sup {
+  visibility: hidden;
+}
+
+ul.primary.navigation.actions li.dropdown {
+  background-color: #201c4c !important;
+  border-radius: 5px !important;
+  margin: 5px !important;
+}
+
+li.dropdown:hover {
+  border-radius: 5px !important;
+}
+
+ul.menu.dropdown-menu li:hover {
+  border-radius: 5px !important;
+}
+
+div.favorite.module.odd li {
+  background-color: #1e2c7f;
+  border-style: dashed;
+  border-radius: 3px;
+}
+
+ol.reading.work.index.group ul.series li,
+ul.series li {
+  border: none;
+}
+
+#footer {
+  background-image: url(https://64.media.tumblr.com/8bdffc8bcd9f7bb1a816c4434a32b5e0/tumblr_n4csjssjvg1snc5kxo1_r1_500.gif);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label,
+button[type="submit"],
+button {
+  border: none;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.actions input,
+input[type="submit"],
+textarea {
+  border: 1px solid;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+input {
+  width: 96%;
+  border: 1px solid;
+  background-image: none;
+  box-shadow: none;
+}
+
+.actions input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+}
+
+form.search input[type="text"] {
+  border-top-color: initial;
+}
+
+.actions a:hover,
+a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.actions a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+#dashboard .current,
+.actions a:active,
+#outer .current,
+#header .current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover,
+#header .primary .menu .current,
+button[type="submit"]:hover,
+button:hover {
+  border-color: initial;
+  box-shadow: none !important;
+}
+
+#header .primary,
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form,
+#header .primary,
+.listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+span.question,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.delete a,
+span.delete,
+#header ul.primary {
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+button[type="submit"]:hover,
+button:hover {
+  border: none;
+  box-shadow: none;
+}
+
+.listbox .index,
+.dashboard .listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  box-shadow: none;
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu {
+  box-shadow: none;
+  background-image: none;
+  filter: none;
+}
+
+#footer ul.navigation.actions li {
+  background-color: #d15ea6;
+  border-radius: 5px;
+  margin: 5px !important;
+}
